@@ -5,11 +5,11 @@ function Navigation() {
         <div >
             <nav class="navigation-container">
                 <div>
-                <NavLink activeClassName="active" to="/productspage">Domů</NavLink>
+                <NavLink activeClassName="active" to="/Products-page">Domů</NavLink>
                 </div>
                 <div class="non-page-section">
-                <NavLink className="nav-link" activeClassName="active" to="/favorites">❤️</NavLink>
-                <NavLink className="nav-link" activeClassName="active" to="/cart">🛒</NavLink>
+                <NavLink className="nav-link" activeClassName="active" to="/Favorites">❤️</NavLink>
+                <NavLink className="nav-link" activeClassName="active" to="/Cart-items">🛒</NavLink>
                 <form>
                     <input type="text" id="searchName" placeholder="Co hledáte?" className="form-control" />
                 </form>

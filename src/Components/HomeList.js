@@ -12,7 +12,7 @@ function HomeList({ Add }) {
     }, []);
 
     return (
-        <div>
+        <div class="empty-box">
             {list.length === 0 && (
                 <h3 >Seznam položek je prázdný</h3>
             )}

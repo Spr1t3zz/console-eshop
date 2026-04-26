@@ -20,18 +20,21 @@ function addFav(ID) {
 
 function Listing({ Name, Price, Description, ImageLink, ID}) {
     return (
-        <div>
-            <br />
-            <hr />
-            <div >
-                <img src={ImageLink} alt="product image" height="200px" class="product-photo" />
+        <div className="product-box">
+            <img src={ImageLink} alt="product image" className="product-photo" />
+
+            <div className="description-box">
                 <h4>{Name}</h4>
                 <p>{Description}</p>
-                <p><b>{Price}</b>,-</p>
             </div>
-            <div>
-                <button onClick={() => addFav(ID)} className="btn">❤️</button>
-                <button onClick={() => add(ID)} className="btn">🛒</button>
+
+            <div className="price-box">
+                <p><b>{Price}</b>,-</p>
+
+                <div className="button-box">
+                    <button onClick={() => addFav(ID)} className="btn">❤️</button>
+                    <button onClick={() => add(ID)} className="btn">🛒</button>
+                </div>
             </div>
         </div>
     );

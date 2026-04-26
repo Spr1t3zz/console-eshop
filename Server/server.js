@@ -12,14 +12,14 @@ let listings = [
     {
         ID: 1,
         Name: "Černý gamepad pro Xbox 360 S",
-        ImageLink: "https://upload.wikimedia.org/wikipedia/commons/6/60/Xbox-360-Controller-Black.png",
+        ImageLink: "https://i5.walmartimages.com/seo/Xbox-360-Video-Game-Console-Wireless-Remote-Controller-Black-Walmart-com_e4ebebab-175f-45a5-82a5-5b9927d93525_1.b89bec66632fe43719fd595857c90c51.jpeg?odnHeight=768&odnWidth=768&odnBg=FFFFFF",
         Description: "Oficiální černý kontrolér Xbox 360 Slim.",
         Price: 250,
     },
     {
         ID: 2,
         Name: "Hra Prototype na Playstation 3",
-        ImageLink: "https://cashforgames.co.nz/cdn/shop/products/4773406cb236f04dce4813aaf447c9f451f9912f-948780.png",
+        ImageLink: "https://cdn.awsli.com.br/2500x2500/138/138431/produto/13527427/bd2bdc606d.jpg",
         Description: "Ve hře Prototype ovládáte amnéziaka a měňavce Alexe Mercera, který se snaží zastavit šíření viru zvaného Blacklight v Manhattanu, jenž mění lidi v mocné a násilné monstra.",
         Price: 125,
     },
@@ -40,14 +40,14 @@ let listings = [
     {
         ID: 5,
         Name: "Kompletní černý housing shell pro gamepad Playstation 3",
-        ImageLink: "https://s.alicdn.com/@sc04/kf/HTB1lsOFaRGw3KVjSZFwq6zQ2FXa4/Replacement-Housing-Shell-Case-for-PS3-Controller-Shell-Mod-Kit-Buttons-Kit-for-PS3-Controller.jpg_300x300.jpg",
+        ImageLink: "https://m.media-amazon.com/images/I/61QrBqVIXcL.jpg",
         Description: "Kompletní černý kryt pro gamepad PS3, ideální pro opravu nebo vylepšení vzhledu ovladače.",
         Price: 285,
     },
     {
         ID: 6,
         Name: "Resident Evil: The Umbrella Chronicles + Light Gun na Wii (nové)",
-        ImageLink: "https://cdn.xzone.cz/p/nintendo-wii/resident-evil-the-umbrella-chronicles-light-gun/resident-evil-the-umbrella-chronicles-light-gun-128-600w.png",
+        ImageLink: "https://static.fnac-static.com/multimedia/0/Images/BE/NR/f4/d0/6a/7000308/1507-1/tsp20250217133539/RESIDENT-EVIL-THE-UMBRELLA-CHRONICLES-BUNDLE-MIX-WII.jpg",
         Description: "Ve hře odhalíte zásahy korporace Umbrella v průběhu série Resident Evil prostřednictvím vyprávění Alberta Weskera, bývalého vědce Umbrelly, a skrývaných dokumentů o tajných motivech a činech organizace.",
         Price: 550,
     },
@@ -61,7 +61,7 @@ let listings = [
     {
         ID: 8,
         Name: "Černý Playstation 2 s gamepadem a modrým stojanem",
-        ImageLink: "https://upload.wikimedia.org/wikipedia/commons/0/02/PS2-Fat-Console-Set.jpg",
+        ImageLink: "https://www.therage.ie/cdn/shop/products/PS2_in_box__39849.1643918849_250x.jpg?v=1668187039",
         Description: "Sony PlayStation 2 je japonská herní konzole druhé generace, v černé barvě. Součástí je jeden gamepad a modrý stojan.",
         Price: 2999,
     }

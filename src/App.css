@@ -1,19 +1,20 @@
-/* Reset */
+
 body {
 
 
 
-  background-color: #e3e3e3;
+  background: linear-gradient(to bottom, #fafafa, #c8c8c8);
   display: flex;
-  justify-content: center;  /* center whole page horizontally */
-  align-items: center;      /* center whole page vertically */
+  justify-content: center;
+  align-items: center;
 }
 
-/* Main wrapper */
+
 .body-container {
+  width: 100%;
   margin-top: 70px;
   margin-bottom: 70px;
-  max-width: 1000px;
+  min-width: 1000px;
 
   display: flex;
   flex-direction: column;
@@ -21,18 +22,18 @@ body {
 
 }
 
-/* Header row (logo + nav/login) */
+
 .horiozntal-container {
   display: flex;
-  justify-content: space-between; /* left + right */
+  justify-content: space-between;
   align-items: center;
   margin: 0;
 }
 
 .navigation-container {
-  background-color: #91c73d;
+  background: linear-gradient(to bottom, #91c73d, #70b326);
   display: flex;
-  justify-content: space-between; /* left + right */
+  justify-content: space-between;
   align-items: center;
   margin: 0;
   padding: 10px 30px;
@@ -47,7 +48,7 @@ body {
   justify-content: center;
 }
 
-/* Products / main content */
+
 .product-container {
   display: flex;
   flex-direction: column;
@@ -58,26 +59,69 @@ body {
 }
 
 .product-photo {
-  height: 80px;
+  height: 65px;
 }
 
-/* Footer */
+
 .footer {
   padding: 20px;
   text-align: center;
-  background-color: #454545;
-  border-top: 1px solid #2b2b2b;
+  background: linear-gradient(to bottom, #454545, #2b2b2b);
   color: #c1c1c1;
+  align-items: center;
 }
 
-/* Links */
+
 a {
   color: white;
-  font-weight: bold;
   text-decoration: none;
 }
+.body-container a:hover {
+  color: #daff97;
+}
 
-/* Profile image */
+.horiozntal-container a:hover {
+  color: #91c73d;
+}
+
+.horiozntal-container a {
+  color: #a8a8a8;
+}
+
 #pfp {
   height: 50px;
+}
+
+
+
+.price-box {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-direction: column;
+}
+
+.button-box {
+  display: flex;
+  gap: 5px;
+}
+
+
+.product-box {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  border: solid 1px #c1c1c1;
+}
+
+.description-box {
+  flex: 1;
+ margin-right: 30px;
+  margin-left: 10px;
+}
+
+.empty-box {
+  min-height: 300px;
+  display: flex;
+  align-items: center;
 }
