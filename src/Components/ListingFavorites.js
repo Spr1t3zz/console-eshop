@@ -1,15 +1,18 @@
-function ListingFavorites({ Name, Price, ImageLink, ID, Remove }) {
+function ListingFavorites({ Name, Price, ImageLink, favID, Remove }) {
     return (
-        <div >
-            <br />
-            <hr />
-            <div className="col-9 row">
-                <img src={ImageLink} alt="" height="50px" />
+        <div className="product-box">
+            <img src={ImageLink} alt={Name} className="product-photo" />
+            <div className="description-box">
                 <h4>{Name}</h4>
-                <p><b>{Price}</b>,-</p>
             </div>
-            <div className="col-3">
-                <button onClick={() => Remove(ID)} className="btn">❌❤️</button>
+            <div className="price-box">
+                <p><b>{Price}</b>,-</p>
+                <div className="button-box">
+                    <button onClick={() => Remove(favID)} className="btn">
+                        <img src="https://www.iconshock.com/image/RealVista/General/close/"
+                             alt="Remove" style={{ width: '16px', height: '16px' }} />
+                    </button>
+                </div>
             </div>
         </div>
     );

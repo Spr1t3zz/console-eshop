@@ -1,15 +1,19 @@
-function ListingCart({ Name, Price, ImageLink, ID, Remove }) {
+function ListingCart({ Name, Price, ImageLink, cartID, quantity, Remove }) {
     return (
-        <div >
-            <br />
-            <hr />
-            <div className="col-9 row">
-                <img src={ImageLink} alt="" height="50px" />
+        <div className="product-box">
+            <img src={ImageLink} alt={Name} className="product-photo" />
+            <div className="description-box">
                 <h4>{Name}</h4>
-                <p><b>{Price}</b>,-</p>
+                <p>Množství: {quantity}</p>
             </div>
-            <div className="col-3">
-                <button onClick={() => Remove(ID)} className="btn">❌🛒</button>
+            <div className="price-box">
+                <p><b>{Price * quantity}</b>,-</p>
+                <div className="button-box">
+                    <button onClick={() => Remove(cartID)} className="btn">
+                        <img src="https://www.iconshock.com/image/RealVista/General/close/"
+                             alt="Remove" style={{ width: '16px', height: '16px' }} />
+                    </button>
+                </div>
             </div>
         </div>
     );

@@ -1,30 +1,24 @@
+import { useState } from "react";
 import HomeList from "../Components/HomeList.js";
 import Header from "../Components/Header.js";
 import Navigation from "../Components/Navigation.js";
 import Footer from "../Components/Footer.js";
 
-
 function Home() {
-    return(
-        <div class="body-container">
+    const [searchQuery, setSearchQuery] = useState("");
 
-                <Header />
-
-
-
-            <Navigation />
-
-            <div class="product-container">
-                <HomeList />
+    return (
+        <div className="body-container">
+            <Header />
+            <Navigation searchQuery={searchQuery} onSearchChange={setSearchQuery} />
+            <div className="product-container">
+                <HomeList searchQuery={searchQuery} />
             </div>
-
-
-
-            <div class="footer">
-            <Footer />
+            <div className="footer">
+                <Footer />
             </div>
         </div>
-    )
+    );
 }
 
 export default Home;
